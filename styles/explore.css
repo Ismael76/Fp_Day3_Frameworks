@@ -4,13 +4,19 @@ body {
 
 .section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 h5 {
   font-weight: bolder;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-family: "Pacifico", cursive !important;
 }
 
 .heading {
