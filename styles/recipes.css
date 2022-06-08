@@ -1,6 +1,5 @@
 .card {
-    
-    display: grid;
+    display: flex;
     width: 15%;
 
 }
