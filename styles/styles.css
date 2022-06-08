@@ -2,5 +2,11 @@ body {
 }
 
 .heading {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Pacifico", cursive !important;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.fa-pizza-slice {
+  font-size: 200%;
 }

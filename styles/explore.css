@@ -12,6 +12,10 @@ h5 {
   font-weight: bolder;
 }
 
+.heading {
+  font-family: "Pacifico", cursive !important;
+}
+
 .rating-container {
   display: flex;
 }
@@ -36,4 +40,9 @@ h5 {
 
 img {
   height: 20rem;
+}
+
+.card-body,
+.card-title {
+  border-bottom: 1px solid black;
 }
