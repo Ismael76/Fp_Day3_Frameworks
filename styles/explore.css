@@ -1,6 +1,72 @@
+body {
+  background: linear-gradient(to left, #e66465, #ffffff);
+}
+
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+.heading {
+  font-family: "Pacifico", cursive !important;
+}
+
+.rating-container {
+  display: flex;
+}
+
+.icon-star {
+  margin-left: 0.5rem;
+}
+
+.card-container {
+  position: relative;
+  border: 1px solid black;
+  max-width: 30rem;
+}
+
+.crsl-btn {
+  position: absolute;
+  top: 50%;
+  background-color: rgb(61, 61, 61);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+}
+
+img {
+  width: 100%;
+  height: 20rem;
+}
+
+.card-body,
+.card-title {
+  border-bottom: 1px solid black;
+}
+
+.crsl-container {
+  max-width: 30rem;
+}
+
+@media screen and (max-width: 576px) {
+  .section {
+    padding: 2rem;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+  .card-container {
+    max-width: 20rem;
+  }
+
+  .crsl-container {
+    max-width: 20rem;
+  }
 }
