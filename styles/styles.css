@@ -11,3 +11,11 @@
 .pizzaHistory {
   max-width: 15rem;
 }
+
+.pizzaTitle {
+  font-family: "Pacifico", cursive !important;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+}
