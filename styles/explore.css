@@ -1,6 +1,39 @@
+body {
+  background: linear-gradient(to left, #e66465, #ffffff);
+}
+
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+.rating-container {
+  display: flex;
+}
+
+.icon-star {
+  margin-left: 0.5rem;
+}
+
+.card-container {
+  position: relative;
+  border: 1px solid black;
+}
+
+.crsl-btn {
+  position: absolute;
+  top: 50%;
+  background-color: rgb(61, 61, 61);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+}
+
+img {
+  height: 20rem;
 }
