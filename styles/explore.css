@@ -27,6 +27,7 @@ h5 {
 .card-container {
   position: relative;
   border: 1px solid black;
+  max-width: 30rem;
 }
 
 .crsl-btn {
@@ -39,10 +40,33 @@ h5 {
 }
 
 img {
+  width: 100%;
   height: 20rem;
 }
 
 .card-body,
 .card-title {
   border-bottom: 1px solid black;
+}
+
+.crsl-container {
+  max-width: 30rem;
+}
+
+@media screen and (max-width: 576px) {
+  .section {
+    padding: 2rem;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+  .card-container {
+    max-width: 20rem;
+  }
+
+  .crsl-container {
+    max-width: 20rem;
+  }
 }
