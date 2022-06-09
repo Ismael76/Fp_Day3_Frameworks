@@ -24,5 +24,6 @@ a {
   .navbar-collapse {
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 10vw;
   }
 }
