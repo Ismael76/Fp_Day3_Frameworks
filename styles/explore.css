@@ -16,7 +16,10 @@ h5 {
 
 h1 {
   margin-bottom: 3rem;
-  font-family: "Pacifico", cursive !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .heading {
@@ -34,7 +37,6 @@ h1 {
 .card-container {
   position: relative;
   border: 1px solid black;
-  max-width: 30rem;
 }
 
 .crsl-btn {
@@ -57,7 +59,7 @@ img {
 }
 
 .crsl-container {
-  max-width: 30rem;
+  max-width: 25rem;
 }
 
 @media screen and (max-width: 576px) {
