@@ -2,3 +2,8 @@
   display: flex;
   width: 15%;
 }
+
+.card {
+  margin: auto;
+  margin-bottom: 1rem;
+}
